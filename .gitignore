@@ -1,0 +1,19 @@
+# Terraform/Terragrunt generated files
+.terraform/
+.terraform.lock.hcl
+.terraform.tfstate*
+terraform.tfstate*
+*.tfstate
+*.tfstate.*
+
+# Terragrunt cache and generated files
+.terragrunt-cache/
+.terragrunt-init-required
+.terragrunt-source-manifest
+.terragrunt-module-manifest
+
+# IDE/Editor specific files
+.idea/
+.vscode/
+*.swp
+*.tmp

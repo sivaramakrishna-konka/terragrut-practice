@@ -1,7 +1,9 @@
 resource "aws_instance" "example" {
-  ami           = "ami-05c179eced2eb9b5b"
+  ami           = var.ami_id
+  key_name = var.key_name
   instance_type = var.instance_type
   tags = {
     Name = var.instance_name
+    Env  = var.env
   }
 }
