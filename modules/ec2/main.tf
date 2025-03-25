@@ -1,3 +1,8 @@
+# provider "aws" {
+#   region = "ap-south-1"
+#   profile= "eks-siva.bapatlas.site"
+# }
+
 resource "aws_instance" "example" {
   ami           = var.ami_id
   key_name = var.key_name
